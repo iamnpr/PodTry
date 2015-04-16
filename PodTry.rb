@@ -26,8 +26,7 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'Demo' => ['PodTry/PodTry/*.png']
   }
-
-
+  
   s.post_install do |library_representation|
     require 'rexml/document'
 
@@ -68,8 +67,6 @@ Pod::Spec.new do |s|
 
       doc.write(File.open(plist, 'wb'))
     end
-    
-    
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
