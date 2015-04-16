@@ -10,6 +10,8 @@
 		AB93C5061ADF2FAE00EC3891 /* PodTry.h in Headers */ = {isa = PBXBuildFile; fileRef = AB93C5051ADF2FAE00EC3891 /* PodTry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB93C50C1ADF2FAE00EC3891 /* PodTry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB93C5001ADF2FAE00EC3891 /* PodTry.framework */; };
 		AB93C5131ADF2FAE00EC3891 /* PodTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C5121ADF2FAE00EC3891 /* PodTryTests.swift */; };
+		AB93C51D1ADF75DF00EC3891 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C51C1ADF75DF00EC3891 /* DemoView.swift */; };
+		AB93C51E1ADF75DF00EC3891 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C51C1ADF75DF00EC3891 /* DemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		AB93C50B1ADF2FAE00EC3891 /* PodTryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB93C5111ADF2FAE00EC3891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB93C5121ADF2FAE00EC3891 /* PodTryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTryTests.swift; sourceTree = "<group>"; };
+		AB93C51C1ADF75DF00EC3891 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 			children = (
 				AB93C5051ADF2FAE00EC3891 /* PodTry.h */,
 				AB93C5031ADF2FAE00EC3891 /* Supporting Files */,
+				AB93C51C1ADF75DF00EC3891 /* DemoView.swift */,
 			);
 			path = PodTry;
 			sourceTree = "<group>";
@@ -209,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB93C51D1ADF75DF00EC3891 /* DemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB93C5131ADF2FAE00EC3891 /* PodTryTests.swift in Sources */,
+				AB93C51E1ADF75DF00EC3891 /* DemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +325,7 @@
 		AB93C5171ADF2FAE00EC3891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -328,12 +335,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AB93C5181ADF2FAE00EC3891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
