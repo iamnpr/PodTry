@@ -12,7 +12,7 @@
 		AB93C5131ADF2FAE00EC3891 /* PodTryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C5121ADF2FAE00EC3891 /* PodTryTests.swift */; };
 		AB93C51D1ADF75DF00EC3891 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C51C1ADF75DF00EC3891 /* DemoView.swift */; };
 		AB93C51E1ADF75DF00EC3891 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB93C51C1ADF75DF00EC3891 /* DemoView.swift */; };
-		AB93C54E1AE028A500EC3891 /* Info.intg.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB93C54D1AE028A500EC3891 /* Info.intg.plist */; };
+		AB93C5501AE029AB00EC3891 /* Info.intg in Resources */ = {isa = PBXBuildFile; fileRef = AB93C54F1AE029AB00EC3891 /* Info.intg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,7 @@
 		AB93C5111ADF2FAE00EC3891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB93C5121ADF2FAE00EC3891 /* PodTryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodTryTests.swift; sourceTree = "<group>"; };
 		AB93C51C1ADF75DF00EC3891 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
-		AB93C54D1AE028A500EC3891 /* Info.intg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.intg.plist; sourceTree = "<group>"; };
+		AB93C54F1AE029AB00EC3891 /* Info.intg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.intg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		AB93C5031ADF2FAE00EC3891 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB93C54D1AE028A500EC3891 /* Info.intg.plist */,
+				AB93C54F1AE029AB00EC3891 /* Info.intg */,
 				AB93C5041ADF2FAE00EC3891 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB93C54E1AE028A500EC3891 /* Info.intg.plist in Resources */,
+				AB93C5501AE029AB00EC3891 /* Info.intg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
