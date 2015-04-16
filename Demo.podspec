@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'PodTry/PodTry/**/*'
   s.resource_bundles = {
-    'Demo' => ['Pod/Assets/*.png']
+    'Demo' => ['PodTry/PodTry/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
