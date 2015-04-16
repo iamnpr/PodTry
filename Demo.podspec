@@ -8,15 +8,15 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "Demo"
-  s.version          = "0.1.0"
+  s.name             = "PodTry"
+  s.version          = ":master"
   s.summary          = "This is a Simple Demo Library"
   s.description      = "This library is to check how a simple demo project would work with private pod spec and source pointing to the private pod spec"
-  s.homepage         = "https://github.com/iamnpr/Demo"
+  s.homepage         = "https://github.com/iamnpr/PodTry.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Naveen Prasad Raja" => "iamnpr@outlook.com" }
-  s.source           = { :git => "https://github.com/iamnpr/Demo.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/iamnpr/PodTry.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/iamnpr'
 
   s.platform     = :ios, '7.0'
